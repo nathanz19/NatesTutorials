@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 1</title>
+  <link rel="stylesheet" href="lessonOneS.css" async>
+</head>
+<body>
+  <nav id="navigation">
+    <p id="logo">NATE'S TUTORIALS</p>
+    <a href ="index.html"><button id ="intro">Introduction</button></a>
+    <a href ="lessons.html"><button id ="lessons">Lessons</button></a>
+    <button id ="pricing">Pricing</button>
+    <button id ="lessons">Login</button>
+    <script src="lessononescript.js" async></script>
+  </nav>
+  <div id = "mainBody">
+    <h1>Lesson 1</h1>
+    <p id="introbodytext">In this lesson, we will cover the basics of HTML and CSS. How can they be combined to make the front end of the website?</p>
+    
+    <h2>What is HTML?</h2>
+    <p id="mainbodytext">HTML stands for HyperText Markup Language. It is used to create a website. Combined with tags and elements, HTML is used for almost every website on the internet and generally easy to use.</p>
+    
+    <h2>What is an Element?</h2>
+    <p id="mainbodytext">An element is a feature of HTML that can contain content. It is generally surrounded by opening tags &lt; and end tag &gt;. There are many elements included semantic (have meaning) and non-semantic elements. </p>
+    <p id="mainbodytext">Non-Semantic Elements: div, span, br</p>
+    <p id="mainbodytext">Semantic Elements: nav, article, header</p>
+    
+    <h2>Basic Structure of HTML</h2>
+    <p id="mainbodytext">Generally, you would first set the language of the HTML document. Then, you would create a head tag which includes the meta-data, title, and any links to CSS or JavaScript files. Then, the body tag can be created which includes every element of the website. Usually, by pressing "!", you are able to automatically create the base code. </p>
+    <img src = "Screenshot 2024-01-16 235026.png" alt = "HTML Code"></img>
+    
+    <h2>What is CSS?</h2>
+    <p id="mainbodytext">CSS stands for Cascading Style Sheets. It is used to style HTML elements and add visuals, color, and designs. It is mostly for appeals and aesthetics but can also create animations and viewports</p>
+    
+    <h2>What is a Selector?</h2>
+    <p id="mainbodytext">A selector allows the user to choose an element and style it. To choose an element, you would usually write the element name followed by open and closed brackets. All the designs would go in there. 
+
+    <h2>Inline vs Block Elements</h2>
+    <p id="mainbodytext">Inline elements are elements that are placed inside of another element. They can share the same line as the other element. Block elements are elements that are placed on a new line. </p>
+    <p id="mainbodytext">Inline elements: span, a, img, br</p>
+    <p id="mainbodytext">Block elements: p, div, h1, form</p>
+      
+    <h2>Combining HTML and CSS</h2>
+    <p id="mainbodytext">1) To combine HTML and CSS, you would first create a CSS file and link it to the HTML file.</p>
+    <p id="mainbodytext">Add this code to your header: &lt;link href="style.css" rel="stylesheet" type="text/css" &gt;</p>
+    <p id="mainbodytext">2) First create an element and assign it an ID.</p>
+    <img src = "Capture.PNG" alt="htmlhello"></img>
+    <p id="mainbodytext">3) Then on your CSS file, type hashtag and the ID name. Then you can apply various properties.</p>
+    <img src = "css.PNG" alt="cssex"></img>
+    <p id="mainbodytext">4) As shown below, this is what happens after you apply CSS.</p>
+    <img src = "result.PNG" alt = "results"></img>
+    
+    <h2>CSS Examples</h2>
+    <p id="mainbodytext"> Change font colors using "color: blue;"</p>
+    <button type="button" id="colorBut" class="butclass">Click Me!</button>
+    <p id="ex1">This is a paragraph</p>
+    <p id="mainbodytext"> Change background colors using "background-color: red;"</p>
+    <button type="button" id="backBut" class="butclass">Click Me!</button>
+    <p id="ex2">This is a paragraph</p>
+    <p id="mainbodytext"> Change font sizes using "font-size: 30px;"</p>
+    <button type="button" id="sizeBut" class="butclass">Click Me!</button>
+    <p id="ex3">This is a paragraph</p>
+    <p id="mainbodytext"> Change font types using "font-family: 'Lucida Handwriting', cursive;"</p>
+    <button type="button" id="fontBut" class="butclass">Click Me!</button>
+    <p id="ex4">This is a paragraph</p>
+    <h2 id="con">Conclusion</h2>
+    <p id="conbodytext">In this lesson, we learned the basics of HTML and CSS and how they can be combined to make the front end of the website. In the next lesson, we will be looking on how Javascript can be used to make the functionality of a website.</p>
+  </div>
+</body>
+</html>
