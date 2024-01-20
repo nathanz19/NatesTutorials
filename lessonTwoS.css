@@ -7,88 +7,427 @@ body {
 }
 
 
+@media (min-width: 0px) {
+  #navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #c9caca;
+    /*https://www.w3schools.com/css/css3_shadows_box.asp*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 25px;
+    background-color: white;
+  }
 
-/*NAVIGATION BAR*/
-#navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px;
-  border: solid;
-  border-width: 0px;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 1px 1px 1px 1px #c9caca;
-  /*https://www.w3schools.com/css/css3_shadows_box.asp*/
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  height: 50px;
-  background-color: white;
+  #logo {
+    font-size: 15px;
+    text-shadow: 2px 2px #8b8989;
+    ;
+    font-family: 'Lucida Handwriting', cursive;
+  }
+
+  #intro {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 45px;
+    margin: 0px;
+  }
+
+  #intro:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  #lessons {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 45px;
+    margin: 0px;
+  }
+
+  #lessons:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  #pricing {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 45px;
+    margin: 0px;
+  }
+
+  #pricing:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  #login {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 45px;
+    margin: 0px;
+  }
+
+  #login:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+  
+  /*MAIN BODY*/
+  #mainBody {
+    margin: 0px;
+    background-color: #ffffff;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+  }
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #5d142d;
+    margin: 20px;
+    text-align: center;
+  }
+  #mainbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #5a5858;
+    margin: 10px;
+  }
+  #introbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #152233;
+    margin: 10px;
+    text-align: center;
+  }
+  #con {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: black;
+  }
+  #conbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #152233;
+    margin: 20px;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
 }
 
-#logo {
-  font-size: 30px;
-  text-shadow: 2px 2px #8b8989;
-  ;
-  font-family: 'Lucida Handwriting', cursive;
+@media (min-width: 700px) {
+  /*NAVIGATION BAR*/
+  #navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #c9caca;
+    /*https://www.w3schools.com/css/css3_shadows_box.asp*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    background-color: white;
+  }
+
+  #logo {
+    font-size: 30px;
+    text-shadow: 2px 2px #8b8989;
+    ;
+    font-family: 'Lucida Handwriting', cursive;
+  }
+
+  #intro {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 70px;
+    margin: 0px;
+  }
+
+  #intro:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  #lessons {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 70px;
+    margin: 0px;
+  }
+
+  #lessons:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  #pricing {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 70px;
+    margin: 0px;
+  }
+
+  #pricing:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  #login {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 70px;
+    margin: 0px;
+  }
+
+  #login:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  /*MAIN BODY*/
+  #mainBody {
+    margin: 0px;
+    background-color: #ffffff;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+  }
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5d142d;
+    margin: 20px;
+    text-align: center;
+  }
+  #mainbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #5a5858;
+    margin: 10px;
+  }
+  #introbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #152233;
+    margin: 10px;
+    text-align: center;
+  }
+  #con {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: black;
+  }
+  #conbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #152233;
+    margin: 20px;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
-#intro {
-  border-width: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  background-color: transparent;
-  color: #5a5858;
-  height: 70px;
-  margin: 0px;
-}
+@media (min-width: 1300px) {
+  /*NAVIGATION BAR*/
+  #navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #c9caca;
+    /*https://www.w3schools.com/css/css3_shadows_box.asp*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    background-color: white;
+  }
 
-#intro:hover {
-  /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
-  background-color: #ededed;
-}
+  #logo {
+    font-size: 35px;
+    text-shadow: 2px 2px #8b8989;
+    ;
+    font-family: 'Lucida Handwriting', cursive;
+  }
 
-#lessons {
-  border-width: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  background-color: transparent;
-  color: #5a5858;
-  height: 70px;
-  margin: 0px;
-}
+  #intro {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 90px;
+    margin: 0px;
+  }
 
-#lessons:hover {
-  /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
-  background-color: #ededed;
-}
+  #intro:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
 
-#pricing {
-  border-width: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  background-color: transparent;
-  color: #5a5858;
-  height: 70px;
-  margin: 0px;
-}
+  #lessons {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 90px;
+    margin: 0px;
+  }
 
-#pricing:hover {
-  /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
-  background-color: #ededed;
-}
+  #lessons:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
 
-#login {
-  border-width: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  background-color: transparent;
-  color: #5a5858;
-  height: 70px;
-  margin: 0px;
-}
+  #pricing {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 90px;
+    margin: 0px;
+  }
 
-#login:hover {
-  /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
-  background-color: #ededed;
+  #pricing:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  #login {
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    color: #5a5858;
+    height: 90px;
+    margin: 0px;
+  }
+
+  #login:hover {
+    /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
+    background-color: #ededed;
+  }
+
+  /*MAIN BODY*/
+  #mainBody {
+    margin: 0px;
+    background-color: #ffffff;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+  }
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #5d142d;
+    margin: 20px;
+    text-align: center;
+  }
+  #mainbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #5a5858;
+    margin: 10px;
+  }
+  #introbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #152233;
+    margin: 10px;
+    text-align: center;
+  }
+  #con {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: black;
+  }
+  #conbodytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #152233;
+    margin: 20px;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }

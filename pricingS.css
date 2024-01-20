@@ -3,8 +3,9 @@ html {
   width: 100%;
 }
 body {
-  background-image: url(white-colored-background-free-vector.jpg);
+  background-image: url('white-colored-background-free-vector.jpg');
 }
+
 @media (min-width: 0px) {
   #navigation {
     display: flex;
@@ -90,78 +91,33 @@ body {
     background-color: #ededed;
   }
   
-  /*MAIN BODY*/
-  #mainBody {
-    margin: 0px;
+  #joinProgram {
     background-color: #ffffff;
-  }
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px;
-  }
-  h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    color: #5d142d;
-    margin: 20px;
-    text-align: center;
-  }
-  #mainbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #5a5858;
-    margin: 10px;
-  }
-  #introbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #152233;
-    margin: 10px;
-    text-align: center;
-  }
-  #con {
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px;
-    color: black;
-  }
-  #conbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #152233;
-    margin: 20px;
-    text-align: center;
-  }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-  }
-  .butclass {
-    background-color: #000000;
-    color: white;
+    padding: 20px;
     border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 10px;
     margin: 20px;
-    border: none;
-    box-shadow: 1px 1px 1px 1px #c9caca;
+    box-shadow: 2px 2px 5px #999;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
   }
-  .butclass:hover{
-    background-color: #5d142d;
+  #clickjoin {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px #999;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+  }
+  #clickjoin:hover {
+    background-color: #ededed;
   }
 }
 
 @media (min-width: 700px) {
+  /*NAVIGATION*/
   #navigation {
     display: flex;
     justify-content: space-between;
@@ -245,80 +201,33 @@ body {
     /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
     background-color: #ededed;
   }
-
-  /*MAIN BODY*/
-  #mainBody {
-    margin: 0px;
+  #joinProgram {
     background-color: #ffffff;
-  }
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
     margin: 20px;
-  }
-  h2 {
+    box-shadow: 2px 2px 5px #999;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    font-weight: bold;
-    color: #5d142d;
-    margin: 20px;
-    text-align: center;
   }
-  #mainbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #5a5858;
-    margin: 10px;
-  }
-  #introbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #152233;
-    margin: 10px;
-    text-align: center;
-  }
-  #con {
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px;
-    color: black;
-  }
-  #conbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #152233;
-    margin: 20px;
-    text-align: center;
-  }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  .butclass {
-    background-color: #000000;
-    color: white;
+  #clickjoin {
+    background-color: #ffffff;
+    padding: 20px;
     border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
     margin: 20px;
-    border: none;
-    box-shadow: 1px 1px 1px 1px #c9caca;
+    box-shadow: 2px 2px 5px #999;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
   }
-  .butclass:hover{
-    background-color: #5d142d;
+  #clickjoin:hover {
+    background-color: #ededed;
   }
 }
 
 @media (min-width: 1300px) {
-  /*NAVIGATION BAR*/
+  /*NAVIGATION*/
   #navigation {
     display: flex;
     justify-content: space-between;
@@ -332,12 +241,12 @@ body {
     /*https://www.w3schools.com/css/css3_shadows_box.asp*/
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    height: 70px;
+    height: 50px;
     background-color: white;
   }
 
   #logo {
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: 2px 2px #8b8989;
     ;
     font-family: 'Lucida Handwriting', cursive;
@@ -346,10 +255,10 @@ body {
   #intro {
     border-width: 0px;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     background-color: transparent;
     color: #5a5858;
-    height: 90px;
+    height: 70px;
     margin: 0px;
   }
 
@@ -361,10 +270,10 @@ body {
   #lessons {
     border-width: 0px;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     background-color: transparent;
     color: #5a5858;
-    height: 90px;
+    height: 70px;
     margin: 0px;
   }
 
@@ -376,10 +285,10 @@ body {
   #pricing {
     border-width: 0px;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     background-color: transparent;
     color: #5a5858;
-    height: 90px;
+    height: 70px;
     margin: 0px;
   }
 
@@ -391,10 +300,10 @@ body {
   #login {
     border-width: 0px;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     background-color: transparent;
     color: #5a5858;
-    height: 90px;
+    height: 70px;
     margin: 0px;
   }
 
@@ -402,75 +311,27 @@ body {
     /*https://stackoverflow.com/questions/11351447/change-link-color-of-a-when-hover-over-tr*/
     background-color: #ededed;
   }
-
-  /*MAIN BODY*/
-  #mainBody {
-    margin: 0px;
+  #joinProgram {
     background-color: #ffffff;
-  }
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
     margin: 20px;
-  }
-  h2 {
+    box-shadow: 2px 2px 5px #999;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    font-weight: bold;
-    color: #5d142d;
-    margin: 20px;
-    text-align: center;
   }
-  #mainbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: #5a5858;
-    margin: 10px;
-  }
-  #introbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: #152233;
-    margin: 10px;
-    text-align: center;
-  }
-  #con {
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px;
-    color: black;
-  }
-  #conbodytext {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: #152233;
-    margin: 20px;
-    text-align: center;
-  }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  .butclass {
-    background-color: #000000;
-    color: white;
+  #clickjoin {
+    background-color: #ffffff;
+    padding: 20px;
     border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px;
     margin: 20px;
-    border: none;
-    box-shadow: 1px 1px 1px 1px #c9caca;
+    box-shadow: 2px 2px 5px #999;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
   }
-  .butclass:hover{
-    background-color: #5d142d;
+  #clickjoin:hover {
+    background-color: #ededed;
   }
 }
-
